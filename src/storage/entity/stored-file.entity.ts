@@ -9,7 +9,7 @@ export class StoredFile {
   @CreateDateColumn()
   creationDate: Date;
 
-  @Column({ nullable: false })
+  @Column({ type: 'text', nullable: false })
   b64Contents: string;
 
   @OneToOne(() => FileMetadata, (metadata) => metadata.id, { nullable: false })
