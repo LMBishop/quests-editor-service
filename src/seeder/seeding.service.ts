@@ -24,6 +24,10 @@ export class SeedingService {
         id: 4,
         name: 'MAIN_CONFIGURATION_FILE',
       },
+      {
+        id: 5,
+        name: 'METADATA',
+      },
     ]);
   }
 }
